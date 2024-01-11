@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCharge.by</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="wrapper">
+    <!--Шапка-->
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+
+            <!--Лого-->
+            <a href="#" class="navbar-brand"><img src="img/Шапка лого/EcoCharge.png"></a>
+
+            <!--Выез. меню-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <!--Меню-->
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="Head.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="favorite.html" class="nav-link">Избранные зарядки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="profil.html" class="nav-link">Профиль</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class="h3 cart">Карта зарядных станций для электроавтомобилей в Беларуси</h3>
+    <div class="container_carta">
+        <iframe class="carta" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa9ffc7e7fd62036ec6c75f26cc6dbc09dbafcf5011cc1cc6a974543b52f892cd&amp;source=constructor" width="821" height="519" frameborder="0"></iframe>
+        
+        <div class="info">
+            <img class="img_carta" src="https://avatars.mds.yandex.net/get-altay/4042551/2a000001801adcbfeec82590659c9f371473/L_height" alt="Зарядка">
+            <div class="btns">
+                <button class="btn_c marc"><a href="https://yandex.by/maps/-/CDu5BO8v">Маршрут</a></button>
+                <button class="btn_c site"><a href="https://malankabn.by/">Сайт</a></button>
+                <button class="btn_c silka"><a href="https://yandex.by/maps/-/CDu5BS7D">Ссылка</a></button>
+            </div>
+            <div class="data">
+                <a class="dat adres" href="https://yandex.by/maps/10274/grodno/house/ZkoYfgRpSE0BQFtpfXtxeX5qZw==/">г.Гродно, ул.Дзержинского 96</a>
+                <p class="dat times">Круглосуточно</p>
+            </div>
+            <h6 class="dat otz">Отзывы</h6>
+            <div class="input">
+                <input type="text" placeholder="Оставить отзыв...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container_inform">
+        <h3 class="h3 inf">🔌 На нашем удобном и интуитивно понятном сайте вы cможете</h3>
+            <ul class="puncts">
+                <li><i class="fa-solid fa-route"></i> Найти ближайшую зарядку</li>
+                <li><i class="fa-solid fa-share-nodes"></i> Поделиться опытом</li>
+                <li><i class="fa-solid fa-circle-info"></i> Получить актуальную информацию</li>
+                <li><i class="fa-solid fa-business-time"></i> Экономьте время и деньги</li>
+            </ul>
+    </div>
+
+        <h3 class="h3 new">Новости</h3>
+        
+
+        <!--Карусель (изображений)-->
+        <div class="carousel slide" data-ride="carousel" id="slides">
+
+            <!--Лист изображ.-->
+            <!--создаем 3 полоски для переключения-->
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+            </ul>
+    
+            <!--Добавление картинок-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="N_container">
+                        <div class="N_card">
+                            <div class="N_card_top">
+                                <a href="#!" class="N_card_img">
+                                    <img src="https://s.auto.drom.ru/i24288/pubs/4/95828/4179212.jpg" alt="News">
+                                </a>
+                                <div class="N_card_bottom">
+                                    <div class="N_card_info">
+                                        <div class="data_card">22.12.2023</div>
+                                        <div class="icon">
+                                            <div class="view">936</div>
+                                            <div class="comment">16</div>
+                                        </div>
+                                    </div>
+                                    <div class="N_card_label">
+                                        <a href="https://news.drom.ru/Lexus-UX-95828.html" class="N_card_title">Lexus UX получил новую гибридную версию</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="N_container">
+                    <div class="N_card">
+                        <div class="N_card_top">
+                            <a href="#!" class="N_card_img">
+                                <img src="https://s.auto.drom.ru/i24288/pubs/4/95817/gen340x2_4179011.jpg" alt="News">
+                            </a>
+                            <div class="N_card_bottom">
+                                <div class="N_card_info">
+                                    <div class="data_card">21.12.2023</div>
+                                    <div class="icon">
+                                        <div class="view">9.937</div>
+                                        <div class="comment">45</div>
+                                    </div>
+                                </div>
+                                <div class="N_card_label">
+                                    <a href="https://news.drom.ru/95817.html" class="N_card_title">С сайта АВТОВАЗа пропал ребрендированный «китаец»</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="N_container">
+                    <div class="N_card">
+                        <div class="N_card_top">
+                            <a href="#!" class="N_card_img">
+                                <img src="https://s.auto.drom.ru/i24288/pubs/4/95856/gen340x2_4180916.jpg" alt="News">
+                            </a>
+                            <div class="N_card_bottom">
+                                <div class="N_card_info">
+                                    <div class="data_card">26.12.2023</div>
+                                    <div class="icon">
+                                        <div class="view">23350</div>
+                                        <div class="comment">151</div>
+                                    </div>
+                                </div>
+                                <div class="N_card_label">
+                                    <a href="https://news.drom.ru/95856.html" class="N_card_title">Южная Корея утвердила запрет на поставку в РФ автомобилей с двигателем от 2.0 и более</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="N_container">
+                        <div class="N_card">
+                            <div class="N_card_top">
+                                <a href="#!" class="N_card_img">
+                                    <img src="https://s.auto.drom.ru/i24288/pubs/4/95711/gen340x2_4174304.jpg" alt="News">
+                                </a>
+                                <div class="N_card_bottom">
+                                    <div class="N_card_info">
+                                        <div class="data_card">08.12.2023</div>
+                                        <div class="icon">
+                                            <div class="view">29.848</div>
+                                            <div class="comment">102</div>
+                                        </div>
+                                    </div>
+                                    <div class="N_card_label">
+                                        <a href="https://news.drom.ru/Prius-95711.html" class="N_card_title">Новый Prius стал автомобилем года в Японии</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="N_container">
+                        <div class="N_card">
+                            <div class="N_card_top">
+                                <a href="#!" class="N_card_img">
+                                    <img src="https://s.auto.drom.ru/i24288/pubs/4/95826/gen340x2_4179184.jpg" alt="News">
+                                </a>
+                                <div class="N_card_bottom">
+                                    <div class="N_card_info">
+                                        <div class="data_card">22.12.2023</div>
+                                        <div class="icon">
+                                            <div class="view">936</div>
+                                            <div class="comment">16</div>
+                                        </div>
+                                    </div>
+                                    <div class="N_card_label">
+                                        <a href="https://news.drom.ru/Honda-95826.html" class="N_card_title">Honda выводит на рынок Японии индийский кроссовер</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="N_container">
+                        <div class="N_card">
+                            <div class="N_card_top">
+                                <a href="#!" class="N_card_img">
+                                    <img src="https://s.auto.drom.ru/i24288/pubs/4/95817/gen340x2_4179011.jpg" alt="News">
+                                </a>
+                                <div class="N_card_bottom">
+                                    <div class="N_card_info">
+                                        <div class="data_card">21.12.2023</div>
+                                        <div class="icon">
+                                            <div class="view">9.937</div>
+                                            <div class="comment">45</div>
+                                        </div>
+                                    </div>
+                                    <div class="N_card_label">
+                                        <a href="https://news.drom.ru/95817.html" class="N_card_title">С сайта АВТОВАЗа пропал ребрендированный «китаец»</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+        <!--Подвал-->
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>EcoCharge</h2>
+                </div>
+                <div class="col-md-4">
+                    <ul class="nav-foot">
+                        <a href="Head.html" class="f-nav-link"><li>Главная</li></a>
+                        <a href="News.html" class="f-nav-link"><li>Избранные зарядки</li></a>
+                        <a href="O nas.html" class="f-nav-link"><li>Профиль</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="tel:+375292922310"><i class="fa-solid fa-square-phone"></i> +375 (29) 29-22-310</a><br>
+                    <a href="tel:+3758369283"><i class="fa-solid fa-square-phone"></i> +375 (29) 83-69-283</a>
+                </div>
+                <div class="col-md-2 icon">
+                    <a href="https://t.me/RichStoune" name="contact"><i class="fa-brands fa-telegram "></i></a>
+                    <a href="https://vk.com/id694640703"><i class="fa-brands fa-vk"></i></a>
+                    <a href="https://www.instagram.com/adam.cortese.18?igsh=MmVlMjlkMTBhMg==" name="o_nas"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

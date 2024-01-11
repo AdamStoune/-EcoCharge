@@ -1,0 +1,360 @@
+body{
+    width: 100%;
+    height: 100%;
+    color: #222;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand img{
+    margin-right: 40px;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+.navbar-toggler{
+    background-color: #e81010;
+}
+
+
+/*Шапка*/
+.navbar{
+    background-color: #6eba37;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-nav .nav-link{
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav li {
+    padding-right: 50px;
+}
+
+.navbar-nav{
+    display: flex;
+    width: fit-content;
+    padding-left: 250px;
+    background-color: #6eba37;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+
+/*Карусель-банер*/
+.carousel-inner {
+    height: 430px;
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+}
+
+.carousel-inner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    top:20%;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption h1{
+    color:rgb(132, 27, 27);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-indicators .active{
+    background-color: #e3eb08;
+    height: 6px;
+}
+
+.carousel-indicators li {
+    width: 45px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: rgb(78, 202, 85);
+}
+
+#slides {
+    height: 330px;
+}
+
+
+/*Карта*/
+.container_carta{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    background-color: #e4e3e3;
+    border-radius: 50px;
+}
+
+h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    margin-top: 20vh;
+}
+
+.carta{
+    width: 60%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.info{
+    width: 270px;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.img_carta{
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.btn_c {
+    width: 85px;
+    border-radius: 10px;
+    background-color: rgb(116, 173, 78);
+    margin-left: 5px;
+}
+
+.btns{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.data{
+    width: 270px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.inf{
+    margin-top: 10vh;
+}
+
+
+.puncts{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 370px;
+    display: flex;
+    margin-left: 34%;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #6eba37;
+    border-radius: 20px;
+}
+.fa-solid{
+    padding-bottom: 10px;
+}
+
+.otz{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+}
+
+
+.input{
+    margin-top: 120px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 95%;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding-left: 20px;
+    font-size: 20px;
+}
+input::placeholder{
+    color: #000000;
+}
+
+
+/*Новости*/
+.new{
+    font-size:xx-large;
+}
+
+.NewsText{
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.N_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.N_card_info{
+    display: flex;
+    color: #878686;
+    padding-bottom: 30px;
+    padding: 7px;
+    font-size:small;
+}
+
+.N_card img{
+    width: 260px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.data_card{
+    font-size: small;
+    color:#878686;
+}
+
+.N_card_label{
+    width: 250px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.icon{
+    display: flex;
+    padding-left: 50px;
+}
+
+.icon i{
+    padding-left: 15px;
+}
+
+.view::before{
+    content: "\1F441";
+}
+.comment::before{
+    content: "\270d";
+    padding-left: 10px;
+}
+
+.N_card_img{
+    width: 280px;
+}
+
+.N_card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.N_card_title{
+    color: #9c4040;
+}
+
+
+
+
+
+/*Подвал*/
+.footer{
+    width: 100%;
+    background-color: #6eba37;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*стиль для под-навигации*/
+.f-nav-link{
+    color: #ffffff;
+    list-style-type: none;
+}
+.nav-foot{
+    border-radius: 20px;
+}
+
+.fa-brands{
+    margin-left: 10px;
+}
+
+.row{
+    margin-top: 10px;
+}
+.row h2{
+    color: #e3eb08;
+    padding: 10%;
+}
+
+
+/*стили иконок*/
+.row, a{
+    color: #ffffff;
+}
+.fa-square-phone{
+    color: rgb(63, 226, 26);
+}
+.fa-telegram{
+    color: rgb(59, 100, 190);
+    margin-left: 50px;
+}
+.fa-instagram{
+    color: rgb(226, 43, 189);
+}
+.fa-vk{
+    color: rgb(74, 61, 159);
+}
+.fa-envelope{
+    color: #f9f9f9;
+}
